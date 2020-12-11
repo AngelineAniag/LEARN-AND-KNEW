@@ -1,0 +1,236 @@
+body {
+    padding: 0;
+    margin: 0;
+	color: #fff;
+	background: linear-gradient(27deg,#00ffbd, #00ffbd, #ffa000, #ff00ea, #d7ff00, #00ffbd, #00ffbd);
+	background-size: 350% 400%;
+	-webkit-animation: Gradient 20s ease infinite;
+	-moz-animation: Gradient 20s ease infinite;
+	animation: Gradient 20s ease infinite;
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+.container{
+    width: 100%;
+    height: 100%;
+    
+}
+.banner{
+    width: 100%;
+    height: max-content;
+    position: fixed;
+    z-index: 1;
+    background-color: rgba(73, 67, 67);
+    border-bottom: 1px solid wheat;
+}
+.logo{
+    float: left;
+    width: 70px;
+    height: 70px;
+    padding: 5px;
+}
+.logo a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+    font-size: 57px;
+    height: 100%;
+    padding-left: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.logo b{
+    width: 100%;
+    height: 100%;
+
+}
+.nav{
+    width: max-content;
+    height: 100%;
+    float: right;
+    margin-right: 5%;   
+}
+.nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: none;
+}
+.nav ul li{
+    float: left;
+}
+.nav ul li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding-top: 23.5;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 20.5px;
+    text-decoration: none;
+    font-family: 'Heebo', sans-serif;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin: 0;
+}
+.nav ul li:hover{   
+    background-color: green;
+}
+.cool-link::after{
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: width .3s;
+   }
+   .cool-link:hover::after{
+    width: 100%;
+    transition: width .3s;
+   }
+.contact{
+    padding-right: 5px;
+}
+.main{
+    width: max-content;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    margin-left: 0 auto;
+    transform: translate(-50%, -50%);
+}
+.main h1{
+        text-transform: uppercase;
+        font-size: 100px;
+        padding: 0;
+        margin: 0 ;
+        width: max-content;
+        height: max-content;
+        opacity: 1;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        animation: s 5s ease;
+    }
+.under-line{
+    width: 100%;
+    margin: 0;
+    border: 2px solid yellow;
+    animation: slide 2s ease;
+    display: inline-block;
+
+    }
+.main p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+
+}
+
+.about-web{
+    height: 150%;
+    width: 100%;
+    background-color: #eeeeee;
+    padding-bottom: 20px;
+    
+}
+.about-web span{
+    width: 50%;
+    height: max-content;
+    
+}
+.about-web h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+.about-web span p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-right: 19%;
+    padding-left: 19%;
+    text-indent: 50px;
+  text-align: justify;
+    color: black;
+    line-height: 50px;
+    
+}
+.aa{
+
+    width: 30%;
+    height: 40%;
+    padding: 5px;
+    margin-left: 20%;
+    box-shadow: 0 5px 5px gray;
+}
+.a{
+    width: 30%;
+    height: 40%;
+    padding: 5px;
+    box-shadow: 0 5px 5px gray;
+}
+.info{
+    height: 100%;
+    width:100%;
+    color: black;
+    background-color: #eeeeee;
+}
+.infobox{
+    padding: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 3%;
+    border: 2px solid black;
+    border-radius: 30px;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: justify;
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+.info p{
+    padding: 0;
+    margin:0;
+}
+.info ol {
+    padding: 0;
+    margin:0;
+}
+.footer{
+    width: 100%;
+    height: 15%;
+    background: #141414;
+}
+.author{
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.cite{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    padding-TOP:20PX;
+    
+    padding-bottom:20PX;
+    margin:0;
+    font-weight: 100;
+}
+.cite br{
+    font-style: italic;
+    
+}
